@@ -16,7 +16,6 @@ anti_aliasing = false
 [sub_resource type="StyleBoxEmpty" id=2]
 
 [node name="Popup" type="Popup"]
-visible = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 3
