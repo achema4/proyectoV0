@@ -6,7 +6,6 @@ signal Resume		#You choose how to use it
 signal Restart		#Reloads current scene
 signal ChangeScene	#Pass location of next scene file
 signal Exit			#Triggers closing the game
-
 onready var CurrentScene = null
 var NextScene
 
@@ -48,4 +47,7 @@ func on_Exit()->void:
 	if ScreenFade.state != ScreenFade.IDLE:
 		return
 	get_tree().quit()
+
+
+	
 

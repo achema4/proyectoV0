@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://Assets/Traducciones/mario.en.translation", "res://Assets/Traducciones/mario.es.translation" ]
+
+source_file="res://Assets/Traducciones/mario.csv"
+dest_files=[ "res://Assets/Traducciones/mario.en.translation", "res://Assets/Traducciones/mario.es.translation" ]
+
+[params]
+
+compress=true
+delimiter=0
